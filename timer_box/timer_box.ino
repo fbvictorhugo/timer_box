@@ -84,7 +84,6 @@ void onTimerTick() {
 void onTimerFinish() {
   MsTimer2::stop();
   timerOn = false;
-  writeLcd("Acabou! :/", "Reinicie");
   ledOn();
 
   playBuzzOnFinish();
@@ -123,7 +122,7 @@ void playBuzzOnFinish() {
 
 void playBuzzOnStart() {
   digitalWrite(BUZZ, HIGH);
-  delay(100);
+  delay(200);
   digitalWrite(BUZZ, LOW);
 }
 
@@ -154,7 +153,7 @@ int getTimeFromPotentiometer(int valPotentiometer) {
   } else if (valPotentiometer > 126 && valPotentiometer <= 168) {
     return 7;
   } else if (valPotentiometer > 168 && valPotentiometer <= 210) {
-    return 1;
+    return 6;
   } else if (valPotentiometer > 210) {
     return 5;
   }
