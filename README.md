@@ -30,5 +30,5 @@ The schema file is also available here [scheme/timer_box.fzz](scheme/timer_box.f
 ![Timer Box gif](/res/timer_box.gif)
 
 
-|![](res/photo_1.jpg)|![](res/photo_2.jpg) |![](res/photo_3.jpg) |
+|![](/res/photo_1.jpg)|![](/res/photo_2.jpg) |![](/res/photo_3.jpg) |
 |-|-|-|
