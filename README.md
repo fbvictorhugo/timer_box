@@ -19,8 +19,8 @@ In the folder: [timer_box/timer_box.ino](timer_box/timer_box.ino)
 
 ![Scheme Fritzing](/res/timer_box_scheme_fritzing.png)
 
-The scheme was carried out with the [Fritzing](https://fritzing.org/)
- software. I tried to get as close as possible with the available components.
+The scheme was created out with the [Fritzing](https://fritzing.org/)
+ software. *I tried to get as close as possible with the available components.*
 
 The schema file is also available here [scheme/timer_box.fzz](scheme/timer_box.fzz)
 
